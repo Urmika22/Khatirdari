@@ -1,0 +1,32 @@
+﻿body {
+    height: 100vh;
+    display:inherit;
+    align-items:normal;
+    justify-content:normal;
+    width:100%;
+}
+.cls {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.cls:hover{
+    color:goldenrod;
+}
+.hover-line::after{
+    content:'';
+    display:block;
+    width:0%;
+    height:2px;
+    background-color:goldenrod;
+    transition:width .3s;
+}
+.hover-line:hover::after{
+    width:100px;
+    transition:width.3s;
+}
+/*.cls*/ 

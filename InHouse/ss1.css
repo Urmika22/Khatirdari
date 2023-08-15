@@ -1,0 +1,7 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/img.png);
+    /* background-size:auto;*/
+    font-family: sans-serif;
+}

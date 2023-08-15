@@ -1,0 +1,62 @@
+﻿body {
+    //background-image: url('/picture/21.PNG');
+    background-size: cover;
+    background-image: url('/picture/21.PNG');
+}
+
+.wrapper {
+    /*// position: relative;*/
+    width: 800px;
+    height: 700px;
+    /*background: transparent;*/
+    border: 2px solid red;
+    margin: 30px auto;
+    /*\\border-radius: 20px;*/
+    /*backdrop-filter: blur(20px);
+    //box-shadow: 0 030px rgba(0,0,0.5);
+    //display: flex;
+   // justify-content: center;
+   // align-items: center;*/
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    ;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+table {
+    font-size: 30px;
+}
+
+td {
+    padding: 10px 20px 0px 0px;
+}
+
+.txt {
+    width: 400px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.txtarea {
+    width: 700px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+. /*cls{
+    width:40px;
+    height:30px;
+    font-size:30px;
+    transition: 0.5s ease;
+    color:aquamarine;*/ /*
+}
+.cls:hover{
+    width:50px;
+    height:40px;
+    color:aqua;
+}
+*/

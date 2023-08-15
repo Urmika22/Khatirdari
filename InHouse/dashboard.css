@@ -1,0 +1,108 @@
+﻿body {
+
+}
+.label{
+   
+    top:200px;
+    left:240px;
+    font-size:40px;
+    color:cornflowerblue;
+}
+.label1{
+   
+    top:270px;
+    left:300px;
+    font-size:30px;
+    color:black;
+}
+.label4{
+    top:450px;
+    left:240px;
+    font-size:40px;
+    color:cornflowerblue;
+}
+.img {
+    background-color:indianred;
+    transition: all 0.4s ease;
+    height:70px;
+    width:70px;
+}
+.img:hover{
+    background-color:hotpink;
+    height:80px;
+    width:80px;
+}
+.img1 {
+    background-color:violet;
+    transition: all 0.4s ease;
+    height: 50px;
+    width: 140px;
+}
+.img1:hover{
+        background-color:mediumpurple;
+        height: 60px;
+        width: 150px;
+}
+.img2 {
+    transition: all 0.4s ease;
+    height: 70px;
+    width: 70px;
+}
+    .img2:hover {
+        transition: all 0.4s ease;
+        height: 50px;
+        width: 140px;
+    }
+.label2 {
+   
+    top: 200px;
+    left: 700px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.label22 {
+   
+    top: 270px;
+    left: 720px;
+    font-size: 30px;
+    color: black;
+}
+.label31 {
+   
+    top: 200px;
+    right: 50px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.label32 {
+    position:inherit;
+    top: 270px;
+    right: 70px;
+    font-size: 30px;
+    color: black;
+}
+.labe51 {
+    top: 270px;
+    left: 700px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.labe52 {
+    top: 270px;
+    right: 50px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.btn {
+    Height: 50px;
+    Width: 115px;
+    color: :black;
+    background-color:aquamarine;
+    transition: all 0.4s ease;
+}
+    .btn:hover {
+        Height: 55px;
+        Width: 125px;
+        color: black;
+        background-color:cyan;
+    }

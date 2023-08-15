@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="khat.master.cs" Inherits="InHouse.khat" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href ="Khat.css" />    
+    <style type="text/css">
+        .auto-style3 {
+            width: 77px;
+            height: 80px;
+        }
+        .auto-style4 {
+            width: 1378px;
+            height: 27px;
+        }
+        .auto-style8 {
+            height: 94px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td><div class ="nav">
+    <h2> <img src="images/logoo.png" class="auto-style3"  style="border-radius: 50px;"/> </h2>
+                    <p> &nbsp;</p>
+        
+    <ul id="item" >
+        <li>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/chome.aspx">HOME</asp:HyperLink>
+        </li>
+         <li><a href ="menu.aspx">Menu</a></li>
+       
+        <li><a href ="aboustUs.aspx">About</a></li>
+        <li><a href ="contactus.aspx">Contact</a> </li>
+         <li><a href ="login.aspx">Sign Out</a></li>
+       
+    </ul>
+    </div>
+    </td>
+            </tr>
+            <tr>
+        <td class="auto-style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        
+                     
+
+                        
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+
+                        
+                     
+
+                        
+                    </asp:ContentPlaceHolder>
+                    </td>        <td class="auto-style8" >
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

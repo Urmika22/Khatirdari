@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="InHouse.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2{
+         
+    background-color: #2a2a2a;
+    width: 100%;
+        }
+        .auto-style3 {
+            background-color: #2a2a2a;
+        }
+        .auto-style5 {
+            background-color: #2a2a2a;
+            width: 206px;
+        }
+        .auto-style13 {
+            background-color: #2a2a2a;
+            height: 40px;
+        }
+        .auto-style15 {
+            background-color: #2a2a2a;
+            width: 74px;
+        }
+    </style>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="auto-style1">
+        <tr>
+            <td colspan="3" class="auto-style2" >
+                <br />
+                &nbsp;<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" Text="KHATIRDARI"></asp:Label>
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink6" runat="server" class="cls" NavigateUrl="~/WebForm8.aspx">Home</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm9.aspx" class="cls">Category</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" class="cls" NavigateUrl="~/pview.aspx">Product</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink3" runat="server" class="cls" NavigateUrl="~/viewProfile.aspx">Profile</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink4" runat="server" class="cls" NavigateUrl="~/contactus.aspx">Contact Us</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink5" runat="server" class="cls" NavigateUrl="~/faq.aspx">FAQ</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink7" runat="server" class="cls" NavigateUrl="~/login.aspx">LogOut</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style13" colspan="3">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5">
+                &nbsp;</td>
+            <td class="auto-style15">
+                <asp:Label ID="Label2" runat="server" Font-Size="X-Large" ForeColor="White" Text="Company"></asp:Label>
+                <br />
+                <asp:HyperLink ID="HyperLink8" runat="server" Font-Size="X-Small" ForeColor="White" NavigateUrl="~/aboustUs.aspx">About Us</asp:HyperLink>
+                <br />
+                <asp:Label ID="Label4" runat="server" Text="Team"  Font-Size="Smaller" ForeColor="White"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="auto-style3">
+                <asp:Label ID="Label5" runat="server" Text="Contact" Font-Size="X-Large" ForeColor="White" ></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <asp:Label ID="Label6" runat="server" Text="0987654321"  Font-Size="Smaller" ForeColor="White"></asp:Label>
+                <br />
+                <asp:HyperLink ID="HyperLink9" runat="server" Font-Size="Smaller" ForeColor="White" NavigateUrl="~/contactus.aspx">Help &amp; Support</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style3" colspan="3">
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

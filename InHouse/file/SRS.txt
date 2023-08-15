@@ -1,0 +1,59 @@
+	Hardware:-
+Specify the logical characteristics of each interface between the software product and the hardware components of the system.  This includes configuration characteristics.  It also covers such matters as what devices are to be supported, how they are to be supported and protocols.  This is not a description of hardware requirements in the sense that “This program must run on a Mac with 64M of RAM”.  This section is for detailing the actual hardware devices your application will interact with and control.  For instance, if you are controlling X10 type home devices, what is the interface to those devices?  Designers should be able to look at this and know what hardware they need to worry about in the design.  Many business type applications will have no hardware interfaces.  If none, just state “The system has no hardware interface requirements” If you just delete sections that are not applicable, then readers do not know if:  a. this does not apply or b.  you forgot to include the section in the first place. 
+From a hardware perspective, an online food delivery application typically interfaces with several different devices and technologies to function properly:
+1. Mobile Devices: The app is typically designed to be used on smartphones and tablets running on  Android operating systems.
+2. GPS: The app uses the GPS capabilities of mobile devices to determine the user's location and show nearby restaurants that deliver to that area.
+3. Push notifications: The app uses push notifications to inform the users about the order status and delivery time.
+4. Payment terminals: The app interfaces with payment terminals to process payments from users. This can include support for various payment methods such as credit/debit cards, digital wallets, etc.
+Software:-
+Specify the use of other required software products and interfaces with other application systems.  For each required software product, include:
+(1)	Name
+(2)	Mnemonic
+(3)	Specification number
+(4)	Version number
+(5)	Source
+
+For each interface, provide:
+(1)	Discussion of the purpose of the interfacing software as related to this software product
+(2)	Definition of the interface in terms of message content and format
+
+Here we document the APIs, versions of software that we do not have to write, but that our system has to use.  For instance if your customer uses SQL Server 7 and you are required to use that, then you need to specify i.e.
+2.1.4.1 Microsoft SQL Server 7.  The system must use SQL Server as its database component.  Communication with the DB is through ODBC connections.  The system must provide SQL data table definitions to be provided to the company DBA for setup.
+
+A key point to remember is that you do NOT want to specify software here that you think would be good to use.  This is only for customer-specified systems that you have to interact with.  Choosing SQL Server 7 as a DB without a customer requirement is a Design choice, not a requirement. This is a subtle but important point to writing good requirements and not over-constraining the design.
+
+ From a software perspective, an online food delivery application typically interfaces with several different software systems to function properly:
+1. Mobile Operating Systems: The app is typically designed to run on mobile operating systems such as iOS and Android.
+2. Database Management Systems: The app interfaces with a database management system to store and retrieve user data, order history, and restaurant information. Examples of database management systems include MySQL, MongoDB, and PostgreSQL.
+3. Payment Processing Systems: The app interfaces with payment processing systems to handle and process payments from users. Examples of payment processing systems include Stripe and PayPal.
+4. Push Notification Services: The app interfaces with push notification services such as
+Firebase Cloud Messaging (FCM) or Apple Push Notification Service (APNS) to send notifications to the users regarding the order status and delivery time.
+5. Location-based services: The app interfaces with location-based services such as Google
+ Maps or Apple Maps to determine the user's location and show nearby restaurants that deliver to that area.
+6. Third-party APIs: The app may interface with third-party APIs such as food ordering, restaurant review, and delivery tracking APIs to provide additional functionality and data to the users.
+7. Analytics and reporting tools: The app may interface with analytics and reporting tools such as Google Analytics, Mixpanel, or Amplitude to track user engagement and provide valuable insights to the restaurant partners.
+8. Kitchen management systems: Some apps interfaces with kitchen management systems used by the restaurants to manage orders and improve kitchen efficiency.
+9. CRM systems: The app may interface with customer relationship management (CRM)
+systems to store and manage customer information, track customer interactions and
+provide customer support.
+ Overall, the software interface of an online food delivery application includes a wide range of systems and technologies that are used to facilitate the ordering and delivery process for users, as well as provide valuable analytics and insights to the restaurant partners.
+
+
+
+
+constraints
+Provide a general description of any other items that will limit the developer's options.  These can include:
+
+(1)  Regulatory policies
+(2)  Hardware limitations (for example, signal timing requirements)
+(3)  Interface to other applications
+(4)  Parallel operation
+(5)  Audit functions
+(6)  Control functions
+(7)  Higher-order language requirements
+(8) 	Signal handshake protocols (for example, XON-XOFF, ACK-NACK)
+(9) 	Reliability requirements
+(10)  Criticality of the application
+(11) Safety and security considerations
+
+
